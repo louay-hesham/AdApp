@@ -21,6 +21,7 @@ namespace AdApp.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-2675954515306594~5183540930");
         }
     }
 }
