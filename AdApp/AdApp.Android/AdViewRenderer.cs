@@ -3,7 +3,7 @@ using Android.Gms.Ads;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ExportRenderer(typeof(MeetupManager.Controls.AdControlView), typeof(MeetupManager.Droid.PlatformSpecific.AdViewRenderer))]
+[assembly: ExportRenderer(typeof(AdApp.Controls.AdControlView), typeof(AdApp.Droid.PlatformSpecific.AdViewRenderer))]
 namespace AdApp.Droid.PlatformSpecific
 {
     public class AdViewRenderer : ViewRenderer<Controls.AdControlView, AdView>
