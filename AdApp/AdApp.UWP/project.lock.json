@@ -2031,6 +2031,7 @@
           }
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -4155,6 +4156,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -6318,6 +6320,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -8451,6 +8454,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -10623,6 +10627,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -12756,6 +12761,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -14928,6 +14934,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xamarin.Build.Download/0.4.6": {},
       "Xamarin.Forms/2.3.4.247": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -21111,6 +21118,22 @@
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
     },
+    "Xamarin.Build.Download/0.4.6": {
+      "sha512": "MCcNQa7gHQVYDzt6YKSrAjOBNqgb3JQYZDPubtWk2s/eV4eUBicuxZczchcvuk2+US3AOuyFxIcMwnej74dWaA==",
+      "type": "package",
+      "path": "Xamarin.Build.Download/0.4.6",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "Xamarin.Build.Download.0.4.6.nupkg.sha512",
+        "Xamarin.Build.Download.nuspec",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets"
+      ]
+    },
     "Xamarin.Forms/2.3.4.247": {
       "sha512": "+6VN8IBSah7EcNJ4SV3pIhNA8tNlBaPLfr3+hQpPIllueJrXI5QtjM0tAJusPc2V1cYyC4YKvA1fs5c/A8RrBw==",
       "type": "package",
@@ -21273,6 +21296,7 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
+      "Xamarin.Build.Download >= 0.4.6",
       "Xamarin.Forms >= 2.3.4.247"
     ],
     "UAP,Version=v10.0": []
